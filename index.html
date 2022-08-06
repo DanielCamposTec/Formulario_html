@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+    <meta name="author" content="Daniel Campos">
+    <meta http-equiv="refresh" content="20">
+    <html lang="pt-br"> 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo3</title>
+    <link rel="stylesheet" href="./estilo.css">
+    
+</head>
+<body>
+    <header> Exemplo3
+        <h1>Outras tags html</h1>
+    </header>
+
+    <section>
+       <h2>html Tables</h2>
+        <table>
+            <thead>
+                
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Cidade</th>
+
+                </tr>
+
+
+            </thead>
+            <tbody>
+            <tr>
+                <td>Daniel Campos</td>
+                <td>25</td>
+                <td>Chapecó</td>
+            </tr>
+            
+            <tr>
+                <td>Ozzy Osbourne</td>
+                <td>68</td>
+                <td>USA</td>
+            </tr>
+       </tbody>
+        </table>
+    
+</section>
+
+    <section>
+        <h2>html Blocks versus In-line</h2>
+        <p> Esta Tag é considera um bloco, ou seja, ela por padrão ocupará
+        todo o espaço horizontal disponível. width=100%
+</p>
+<a>Link1</a>
+<a>Link2</a>
+</section>
+        <section>
+            <h2>html Formulários Form</h2>
+            <form>
+                <div> 
+                <lable for="nome">Nome</lable>
+                <input type="text" name="nome" maxlength="30" placeholder="Nome Completo">
+                <!--Hint =  Place holder / Associar Lable nome ao input -->
+            </div>
+            <div>
+                
+                <lable for="nascimento">Data de Nascimento</lable>
+                <input type="date" name="data" maxlength="30" placeholder="">
+                                
+            </div>
+
+            <div> 
+                <label for="salario">Salário</label>
+                <input type="number" name="salario">
+            </div>
+
+            <div>
+                <label for="foto">Foto</label>
+                <input type="file" name="foto">
+
+            </div>
+
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha">
+            </div>
+            <div>
+                <label for="estadocivil">Estadocivil</label>
+                <select name="estadocivil">
+                    <option>Solteiro</option>
+                    <option>Casado</option>
+                    <option>Divorciado</option>
+                    <option>Corno</option>
+                
+                </select>
+            </div>
+            <div>
+                <label for="observacoes">Observacoes</label>
+                <textarea name="observacoes" cols="30" rows="10"></textarea>
+
+            </div>
+
+            <div>
+                <input type="submit" value="Salvar">
+                <input type="reset" value="Limpar">
+                
+            </div>
+        </form>
+
+    </section>
+
+
+
+
+</body>
+</html>
